@@ -9,4 +9,4 @@ def manhattan_distance(x: list, y: list) -> float:
     y = np.asarray(y)
     # print(x-y)
     # print(abs(x-y))
-    return sum(abs(x-y))
+    return np.sum(np.abs(x-y))
